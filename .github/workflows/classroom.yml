@@ -61,6 +61,7 @@ jobs:
             Name: Eve
             Age: 50
         comparison-method: contains
+        comparison_arguments: "-w -B"
         timeout: 10
         max-score: 10
     - name: Underage and overage adjusted
@@ -102,6 +103,7 @@ jobs:
             Name: Alex
             Age: 18
         comparison-method: contains
+        comparison_arguments: "-w -B"
         timeout: 10
         max-score: 5
     - name: Autograding Reporter
