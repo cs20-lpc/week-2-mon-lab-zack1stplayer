@@ -23,13 +23,13 @@ jobs:
         timeout: 10
         max-score: 5
     - name: All students present
-        id: all-students-present
-        uses: classroom-resources/autograding-command-grader@v1
-        with:
-          test-name: All students present
-          command: ./check.sh
-          timeout: 10
-          max-score: 10
+      id: all-students-present
+      uses: classroom-resources/autograding-command-grader@v1
+      with:
+        test-name: All students present
+        command: ./check.sh
+        timeout: 10
+        max-score: 10
     - name: All students valid ages
       id: all-students-valid-ages
       uses: classroom-resources/autograding-io-grader@v1
