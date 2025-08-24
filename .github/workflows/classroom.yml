@@ -30,6 +30,8 @@ jobs:
         command: ./check.sh
         timeout: 10
         max-score: 10
+    - name: Make check.sh executable
+      run: chmod +x check.sh
     - name: All students valid ages
       id: all-students-valid-ages
       uses: classroom-resources/autograding-io-grader@v1
