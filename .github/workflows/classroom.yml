@@ -42,24 +42,24 @@ jobs:
           50
         expected-output: |
           Student #1
-              Name: Alice
-              Age: 20
+            Name: Alice
+            Age: 20
 
           Student #2
-              Name: Bob
-              Age: 25
+            Name: Bob
+            Age: 25
 
           Student #3
-              Name: Carol
-              Age: 30
+            Name: Carol
+            Age: 30
 
           Student #4
-              Name: Dave
-              Age: 40
+            Name: Dave
+            Age: 40
 
           Student #5
-              Name: Eve
-              Age: 50
+            Name: Eve
+            Age: 50
         comparison-method: contains
         timeout: 10
         max-score: 10
@@ -83,24 +83,24 @@ jobs:
           18
         expected-output: |
           Student #1
-              Name: John
-              Age: 18
+            Name: John
+            Age: 18
 
           Student #2
-              Name: Mary
-              Age: 50
+            Name: Mary
+            Age: 50
 
           Student #3
-              Name: Tom
-              Age: 18
+            Name: Tom
+            Age: 18
 
           Student #4
-              Name: Kate
-              Age: 50
+            Name: Kate
+            Age: 50
 
           Student #5
-              Name: Alex
-              Age: 18
+            Name: Alex
+            Age: 18
         comparison-method: contains
         timeout: 10
         max-score: 5
