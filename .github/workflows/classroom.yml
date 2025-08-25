@@ -36,7 +36,6 @@ jobs:
       uses: classroom-resources/autograding-grading-reporter@v1
       env:
         COMPILE_RESULTS: "${{steps.compile.outputs.result}}"
-        ALL-STUDENTS-VALID-AGES_RESULTS: "${{steps.all-students-valid-ages.outputs.result}}"
-        UNDERAGE-AND-OVERAGE-ADJUSTED_RESULTS: "${{steps.underage-and-overage-adjusted.outputs.result}}"
+        ALL-STUDENTS-PRESENT_RESULTS: "${{steps.all-students-present.outputs.result}}"
       with:
         runners: compile,all-students-present
