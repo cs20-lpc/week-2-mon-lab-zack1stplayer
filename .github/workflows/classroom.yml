@@ -39,4 +39,4 @@ jobs:
         ALL-STUDENTS-VALID-AGES_RESULTS: "${{steps.all-students-valid-ages.outputs.result}}"
         UNDERAGE-AND-OVERAGE-ADJUSTED_RESULTS: "${{steps.underage-and-overage-adjusted.outputs.result}}"
       with:
-        runners: compile,all-students-valid-ages,underage-and-overage-adjusted
+        runners: compile,all-students-present
