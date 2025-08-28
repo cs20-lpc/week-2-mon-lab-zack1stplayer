@@ -1,29 +1,25 @@
-PS C:\Users\zack1\OneDrive\Documents\GitHub\week-2-mon-lab-zack1stplayer>  & 'c:\Users\zack1\.vscode\extensions\ms-vscode.cpptools-1.26.3-win32-x64\debugAdapters\bin\WindowsDebugLauncher.exe' '--stdin=Microsoft-MIEngine-In-otq3k1kv.tzu' '--stdout=Microsoft-MIEngine-Out-pyxgp3o0.clb' '--stderr=Microsoft-MIEngine-Error-rxvzapkp.qm3' '--pid=Microsoft-MIEngine-Pid-4g0e4lqp.wnd' '--dbgExe=C:\msys64\ucrt64\bin\gdb.exe' '--interpreter=mi' 
+PS C:\Users\zack1\OneDrive\Documents\GitHub\week-2-mon-lab-zack1stplayer>  & 'c:\Users\zack1\.vscode\extensions\ms-vscode.cpptools-1.26.3-win32-x64\debugAdapters\bin\WindowsDebugLauncher.exe' '--stdin=Microsoft-MIEngine-In-ej1tjxad.pgq' '--stdout=Microsoft-MIEngine-Out-eg4yp53y.pbl' '--stderr=Microsoft-MIEngine-Error-3hdk0o4x.ri0' '--pid=Microsoft-MIEngine-Pid-4wboakf1.c00' '--dbgExe=C:\msys64\ucrt64\bin\gdb.exe' '--interpreter=mi' 
 Student object created
 Student object created
 Student object created
 Student object created
 Student object created
-Enter the name for student #1: A 
-Enter the age for student #1: 1
-Enter the name for student #2: B 
-Enter the age for student #2: 2
-Enter the name for student #3: C
-Enter the age for student #3: 3
-Enter the name for student #4: D
-Enter the age for student #4: 4
-Enter the name for student #5: E
-Enter the age for student #5: 5
-Student #1
-        Name: A
+Enter the name for student #1: Something 221 e
+Enter the age for student #1: -1
+Enter the name for student #2: \n Double Trouble
+Enter the age for student #2: 200
+Enter the name for student #3: 4
+Enter the age for student #3: G
+Enter the name for student #4: Enter the age for student #4: Enter the name for student #5: Enter the age for student #5: Student #1
+        Name: Something 221 e
         Age: 18
 
 Student #2
-        Name: B
-        Age: 18
+        Name: \n Double Trouble
+        Age: 50
 
 Student #3
-        Name: C
+        Name: 4
         Age: 18
 
 Student #4
